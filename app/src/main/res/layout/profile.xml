@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/br">
+        <ImageButton
+            android:id="@+id/pfback"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back" />
+
+        <ImageButton
+            android:id="@+id/logout"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/exit1" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@drawable/button"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/avt"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/profile"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nguyễn Hồng Quân"
+            android:textStyle="bold"
+            android:layout_below="@id/avt"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/lhp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="122TLTTD02"
+            android:textStyle="bold"
+            android:layout_below="@id/msv"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/msv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2050531200257"
+            android:textStyle="bold"
+            android:layout_below="@id/ten"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
